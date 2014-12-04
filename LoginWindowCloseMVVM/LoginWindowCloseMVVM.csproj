@@ -60,6 +60,10 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="LoginCommandParameterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="LoginDataContextChangedView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -76,6 +80,10 @@
       <DependentUpon>LoggedinView.xaml</DependentUpon>
     </Compile>
     <Compile Include="LoggedinViewModel.cs" />
+    <Compile Include="LoginCommandParameterView.xaml.cs">
+      <DependentUpon>LoginCommandParameterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginCommandParameterViewModel.cs" />
     <Compile Include="LoginDataContextChangedView.xaml.cs">
       <DependentUpon>LoginDataContextChangedView.xaml</DependentUpon>
     </Compile>
